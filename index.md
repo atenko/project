@@ -32,3 +32,5 @@
     ```
 5. **Prepare for Week 7**
      - import the specific health questionnair data
+6. **Week 7**
+   - click [here](dyndoc.html) 
