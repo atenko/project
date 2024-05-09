@@ -34,9 +34,7 @@
      - import the specific health questionnair data
        
 ## Week 7 (5/7)
-### You can see the do.file for the whole analysis from the following link
 
-click [here](https://atenko.github.io/hw75/)
 1. **Use nonparametric (Kaplan-Meier) method**
    - click [here](nonpara.png) for K-M figure.
 2. **Use semiparametric (Cox Regression) method**
@@ -47,3 +45,5 @@ click [here](https://atenko.github.io/hw75/)
    - click [here](unadj_adj.png) for a combined figure
 6. **for HW7, adjusted for age, race, and two additional variables**
    - click [here](scenario.png) for the scenario of 40 year-old male who self-describes as being in good health with citizenship and with the household size of 6 compared with a person with the household size of 4.
+7. **for the whole do.file**
+   - click [here]((https://atenko.github.io/hw75/) for the whole analysis.
