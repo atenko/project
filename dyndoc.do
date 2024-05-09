@@ -119,7 +119,7 @@ restore
 <<dd_do:nooutput>>
 //5. Inferences
 hist ridageyr 
-graph export nonpara.png, replace 
+graph export nonpara_histage.png, replace 
 //replace ridageyr=ridageyr/10
 capture drop s0 
 stcox i.huq010 ridageyr riagendr, basesurv(s0)
