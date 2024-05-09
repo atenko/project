@@ -167,10 +167,12 @@ graph save semipara_adj.gph, replace
 **Combining graphs**
 ```
 <<dd_do:nooutput>>
+qui {
 //updates
 graph combine semipara_unadj.gph semipara_adj.gph, ///
     ycommon ti("Hazard Ratio, 95%CI") 
 graph export unadj_adj.png, replace 
+}
 <</dd_do>>
 ```
 

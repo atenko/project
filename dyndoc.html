@@ -20,7 +20,7 @@
 . //2. code
 . do ${repo}followup.do
  C:\Users\ATSUKO\Dropbox\JHSPH\2024.03.25_stata_programming\intermediate\hw
-&gt; 72
+&gt; 74
 
 . save followup, replace 
 
@@ -82,7 +82,7 @@
 . graph export nonpara.png, replace 
 
 </code></pre>
-<p><img src="Graph4.svg" ></p>
+<p><img src="Graph.svg" ></p>
 <p><strong>Semi-parametric</strong></p>
 <pre><code>. //4. Semi-parametric
 . stcox i.huq010, basesurv(s0)
@@ -142,7 +142,7 @@
 
 . 
 </code></pre>
-<p><img src="Graph5.svg" ></p>
+<p><img src="Graph1.svg" ></p>
 <p><strong>Inferences</strong></p>
 <pre><code>. //5. Inferences
 . hist ridageyr 
@@ -206,16 +206,12 @@
 . graph save semipara_adj.gph, replace 
 
 </code></pre>
-<p><img src="Graph6.svg" ></p>
+<p><img src="Graph2.svg" ></p>
 <p><strong>Combining graphs</strong></p>
-<pre><code>. //updates
-. graph combine semipara_unadj.gph semipara_adj.gph, ///
-&gt;     ycommon ti(&quot;Hazard Ratio, 95%CI&quot;) 
-
-. graph export unadj_adj.png, replace 
+<pre><code>. qui {
 
 </code></pre>
-<p><img src="Graph7.svg" ></p>
+<p><img src="Graph3.svg" ></p>
 <p><strong>2 additional variables added</strong></p>
 <pre><code>. //these variable names don't exist in the dataset, this is a mere demo
 . use week7, clear
