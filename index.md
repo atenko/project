@@ -34,7 +34,8 @@
      - import the specific health questionnair data
        
 ## Week 7 (5/7)
-### You can see the do.file for the whole analysis from [here](https://atenko.github.io/hw75/)
+### You can see the do.file for the whole analysis from the following link
+click [here](https://atenko.github.io/hw75/)
 1. **Use nonparametric (Kaplan-Meier) method**
    - click [here](nonpara.png) for K-M figure.
 2. **Use semiparametric (Cox Regression) method**
