@@ -46,4 +46,4 @@
 6. **for HW7, adjusted for age, race, and two additional variables**
    - click [here](scenario.png) for the scenario of 40 year-old male who self-describes as being in good health with citizenship and with the household size of 6 compared with a person with the household size of 4.
 7. **for the whole do.file**
-   - click [here]((https://atenko.github.io/hw75/) for the whole analysis.
+   - click [here](dyndoc.html) for the whole analysis.
